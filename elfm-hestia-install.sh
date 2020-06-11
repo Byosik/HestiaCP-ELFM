@@ -1,8 +1,8 @@
 #!/bin/bash
 function elfminstaller() { 
-echo "HestiaCP Installing ELFM...." 
+echo "HestiaCP. Installing ELFM...." 
 cd /usr/local/hestia/web/list
-wget https://raw.githubusercontent.com/vesta-cp/vestacp-file-manager/master/file%20manager.tar -O elfm.tar
+wget https://github.com/Byosik/HestiaCP-ELFM/blob/master/elfm.tar -O elfm.tar
 tar -xf elfm.tar
 rm -rf elfm.tar
 # Add the link to the panel.html file 
